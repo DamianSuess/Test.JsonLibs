@@ -9,6 +9,20 @@ Author: [Damian Suess](https://www.linkedin.com/in/damiansuess/)
 ## Semi-Requirements
 The project works best if you include the [Prism Template Pack](https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack). This allows the system to quickly type in code for you and _even creates a ViewModel class when you create a new page_!
 
+## TODO
+* [ ] Compare benchmarks across engines
+  * Create an up-to-date benchmark of [Battling Serializers](https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/) - [GitHub](https://github.com/michaelscodingspot/PracticalDebugging/blob/master/Benchmarks/Serializers/Models.cs)
+* [ ] Note if the project still alive
+
+### Engines
+* [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=netcore-3.0)
+* [Swifter.Json](https://github.com/Dogwei/Swifter.Json)
+* [Utf8Json](https://github.com/neuecc/Utf8Json)
+* [Newtonsoft](https://www.newtonsoft.com/json)
+* [Jil](https://github.com/kevin-montrose/Jil)
+* [Service Stack](https://github.com/ServiceStack/ServiceStack.Text)
+* [Data Contracts](https://docs.microsoft.com/en-us/dotnet/framework/wcf/samples/json-serialization)
+
 # Resources
 * [Prism Library](https://prismlibrary.github.io/)
 * [Prism Template Pack](https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack)
