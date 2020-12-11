@@ -1,5 +1,4 @@
 # Introduction
-
 This is a sample project for Prism with Xamarin.Forms using DryIoC.
 
 Prism is a framework for building loosely coupled, maintainable, and testable XAML applications in WPF, Windows 10 UWP, and Xamarin Forms. Separate releases are available for each platform and those will be developed on independent timelines. Prism provides an implementation of a collection of design patterns that are helpful in writing well-structured and maintainable XAML applications, including MVVM, dependency injection, commands, EventAggregator, and others. Prism's core functionality is a shared code base in a Portable Class Library targeting these platforms.
@@ -12,46 +11,22 @@ The project works best if you include the [Prism Template Pack](https://marketpl
 ## TODO
 * [ ] Compare benchmarks across engines
   * Create an up-to-date benchmark of [Battling Serializers](https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/) - [GitHub](https://github.com/michaelscodingspot/PracticalDebugging/blob/master/Benchmarks/Serializers/Models.cs)
-* [ ] Note if the project still alive
 
-# Engines
-* [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=netcore-3.0)
-* [Swifter.Json](https://github.com/Dogwei/Swifter.Json)
-* [Utf8Json](https://github.com/neuecc/Utf8Json)
-* [Newtonsoft](https://www.newtonsoft.com/json)
-* [Jil](https://github.com/kevin-montrose/Jil)
-* [Service Stack](https://github.com/ServiceStack/ServiceStack.Text)
+## Engines
+
+| Name | Active | NuGet |
+|------|--------|-------|
+| [Swifter.Json](https://github.com/Dogwei/Swifter.Json) | Active | [Nuget](https://www.nuget.org/packages/Swifter.Json)
+| [Newtonsoft](https://www.newtonsoft.com/json) | Active | [NuGet](https://www.nuget.org/packages/Newtonsoft.Json/)
+| [Jil](https://github.com/kevin-montrose/Jil) | Active | 
+| [Utf8Json](https://github.com/neuecc/Utf8Json/) | Inactive | [NuGet](https://www.nuget.org/packages/Utf8Json/)
+| [System.Text.Json](https://github.com/dotnet/runtime/tree/master/src/libraries/System.Text.Json) | Active | [NuGet](https://www.nuget.org/packages/System.Text.Json)
+| [Service Stack](https://github.com/ServiceStack/ServiceStack.Text) | Active |
+
+Misc:
 * [Data Contracts](https://docs.microsoft.com/en-us/dotnet/framework/wcf/samples/json-serialization)
-
-## Json NuGet Comparisons
-
-* Swift.Json
-  * Status: Active
-  * Size: _unknown_
-  * [GitHub]()
-  * [Nuget](https://www.nuget.org/packages/Swifter.Json)
-* Utf8Json
-  * Status: Inactive
-  * Size: _unknown_
-  * [GitHub](https://github.com/neuecc/Utf8Json/)
-  * [NuGet](https://www.nuget.org/packages/Utf8Json/)
-* System.Text.Json
-  * Status: Active
-  * Size: _unknown_
-  * [GitHub](https://github.com/dotnet/runtime) - [src/libraries/System.Text.Json](https://github.com/dotnet/runtime/tree/master/src/libraries/System.Text.Json)
-  * [NuGet](https://www.nuget.org/packages/System.Text.Json)
-* Newtonsoft.Json
-  * Status: Active
-  * Size: _unknown_
-  * [GitHub]()
-  * [NuGet](https://www.nuget.org/packages/Newtonsoft.Json/)
 
 # Resources
 * [Prism Library](https://prismlibrary.github.io/)
 * [Prism Template Pack](https://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack)
 * [Prism on GitHub](https://github.com/PrismLibrary/Prism)
-
-### Learn
-* [Prism for Xamarin.Forms - Create your first application](https://www.youtube.com/watch?v=81Q2fxFWIqA) - Created 2018-12-04
-* [The Xamarin Show | Episode 10: Prism for Xamarin.Forms with Brian Lagunas](https://www.youtube.com/watch?v=mb3_vhYw1mA) - Created 2018-01-04 _Prism v6_
-* [Xamarin Forms with Prism — Getting Started — Part 1](https://medium.com/tutorialsxl/xamarin-forms-with-prism-getting-started-part-1-14832d7cf5fa) - Created 2018-03-23
