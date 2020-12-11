@@ -14,7 +14,7 @@ The project works best if you include the [Prism Template Pack](https://marketpl
   * Create an up-to-date benchmark of [Battling Serializers](https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/) - [GitHub](https://github.com/michaelscodingspot/PracticalDebugging/blob/master/Benchmarks/Serializers/Models.cs)
 * [ ] Note if the project still alive
 
-### Engines
+# Engines
 * [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=netcore-3.0)
 * [Swifter.Json](https://github.com/Dogwei/Swifter.Json)
 * [Utf8Json](https://github.com/neuecc/Utf8Json)
@@ -22,6 +22,29 @@ The project works best if you include the [Prism Template Pack](https://marketpl
 * [Jil](https://github.com/kevin-montrose/Jil)
 * [Service Stack](https://github.com/ServiceStack/ServiceStack.Text)
 * [Data Contracts](https://docs.microsoft.com/en-us/dotnet/framework/wcf/samples/json-serialization)
+
+## Json NuGet Comparisons
+
+* Swift.Json
+  * Status: Active
+  * Size: _unknown_
+  * [GitHub]()
+  * [Nuget](https://www.nuget.org/packages/Swifter.Json)
+* Utf8Json
+  * Status: Inactive
+  * Size: _unknown_
+  * [GitHub](https://github.com/neuecc/Utf8Json/)
+  * [NuGet](https://www.nuget.org/packages/Utf8Json/)
+* System.Text.Json
+  * Status: Active
+  * Size: _unknown_
+  * [GitHub](https://github.com/dotnet/runtime) - [src/libraries/System.Text.Json](https://github.com/dotnet/runtime/tree/master/src/libraries/System.Text.Json)
+  * [NuGet](https://www.nuget.org/packages/System.Text.Json)
+* Newtonsoft.Json
+  * Status: Active
+  * Size: _unknown_
+  * [GitHub]()
+  * [NuGet](https://www.nuget.org/packages/Newtonsoft.Json/)
 
 # Resources
 * [Prism Library](https://prismlibrary.github.io/)
